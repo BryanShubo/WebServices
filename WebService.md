@@ -154,9 +154,9 @@ binding/ service
 
 ```
 
-9 SOAP Web Service Design Approaches
+9 Two SOAP Web Service Design Approaches
 ```
-* Top Down / WSDL First / Contract First
+I. Top Down / WSDL First / Contract First
 1) Create the WSDL file
 2) Generate the jave stubs using tools like wsdl2java
 3) Implement the web services endpoint
@@ -164,12 +164,11 @@ binding/ service
     i.  Contract with the consume Signed off
     ii. Better Interoperability
     iii.Faster Integration
-    
  5) Example:
  WSDL First project management WS (Java) ==> Reporting Application(.Net)
 
 
-* Code First / Bottom Up
+II.  Code First / Bottom Up
 1) Write Java Code and annotate
 2) Generate the WSDL from the code using java2wsdl
 3) Advantages: Legacy Application Integration
