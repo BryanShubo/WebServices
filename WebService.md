@@ -251,7 +251,6 @@ step 2: Generate Stubs
 step 3: Implement the endpoint
 step 4: Configure the cf-servlet.xml
 
-
 ```
 
 
