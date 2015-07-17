@@ -152,6 +152,38 @@ ABSTRACT
 Physical
 binding/ service
 
+description:	The description element is the root element of the WSDL 2.0 file. All other WSDL elements are nested inside this element.
+
+types:	The types element contains a specification of the data types exchanged between the client and the web service. By default these data types are described using XML Schema.
+
+interface:	The interface element describes what operations the web service has, and what messages are exchanged for each operation (input / output). It also describes possible fault messages.
+
+binding:	The binding element describes how the web service is accessed over the network. Typically the binding element binds the web service to the HTTP protocol.
+
+service:	The service element describes where the web service can be accessed on the network. Typically the service element contains a URL to the service.
+
+documentation:	The documentation element is optional and may contain a humanly readable description of the web service.
+
+import:	The import element is optional and may be used to import XML Schemas or other WSDL files.
+```
+
+```xml
+<description>
+
+  <types>
+  </types>
+
+  <interface>
+  </interface>
+
+  <binding>
+  </binding>
+
+  <service>
+  </service>
+
+</description>
+
 ```
 
 9 Two SOAP Web Service Design Approaches
