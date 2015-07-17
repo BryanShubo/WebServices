@@ -252,5 +252,24 @@ step 4: Configure the cf-servlet.xml
 
 ```
 
+12 Bottom Up Case: Payment gateway
+```
+Step 1: Java Interfaces and Classes
+Step 2: Annotate The Endpoint and Beans
+Step 3: Configure The Endpoint Using Spring
+Step 4: Access the WSDL File
+
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
