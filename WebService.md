@@ -290,8 +290,32 @@ Step 1: Java Interfaces and Classes
 Step 2: Annotate The Endpoint and Beans
 Step 3: Configure The Endpoint Using Spring
 Step 4: Access the WSDL File
+```
 
+13 Securing Soap Web Services
+```
+WS Standards:
+Security
+Addressing
+Policy
+MTOM
 
+UT
+MTOM
+Enc/Dec
+
+Online Shopping Application ==> Banks Payment Gateway Web Service
+
+WS-Security:
+1) Authentication:
+         User Name Token Profile
+         X 508 Certificates
+         SAML
+         
+ 2)
+ 
+ 
+ 3) 
 ```
 
 
