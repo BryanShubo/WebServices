@@ -306,11 +306,15 @@ Enc/Dec
 
 Online Shopping Application ==> Banks Payment Gateway Web Service
 
+Where to put security info
+
+soap header / soap body / Whate are element names
+
 WS-Security:
 1) Authentication:
          User Name Token Profile
          X 508 Certificates
-         SAML
+         SAML: SAML (Security Assertion Markup Language)  / secury single sign on protocol
          
  2)
  
