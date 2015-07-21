@@ -52,6 +52,25 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:3.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:3.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:3.2.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-ws-security:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-security:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-common:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.santuario:xmlsec:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:openws:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:xmltooling:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-dom:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-policy:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-stax:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-bindings:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-policy-stax:2.0.2" level="project" />
   </component>
 </module>
 

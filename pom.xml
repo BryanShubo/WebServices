@@ -8,6 +8,7 @@
         <module>JAXB</module>
 		<module>CXF</module>
         <module>CodeFirst</module>
+        <module>MTOM</module>
     </modules>
     <packaging>pom</packaging>
   <name>SOAP</name>
