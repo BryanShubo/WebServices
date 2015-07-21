@@ -81,17 +81,6 @@ Level 3: HATEOAS: Resonses have links that the clients can use.
 
 ```
 
-##### JAX-RS
-```
-JAX-RS interfaces and annotations(javax.ws.rs.*)
-
-Jersey / RESTEasy both contain JAS-RS and implementations
-
-@Path: annotation for class
-
-@GET: 
-```
-
 ##### Design and Implementation
 ```
 1) Design
@@ -144,10 +133,36 @@ Update Response: HTTP/1.1 200 OK
 
 Delete Request: /patients/123
 Delete Response: HTTP/1.1 200 OK 
-
-
 ```
 
+##### JAX-RS
+```
+JAX-RS interfaces and annotations(javax.ws.rs.*)
+
+Apache CXF / Jersey / RESTEasy both contain JAS-RS and implementations
+
+**Annotation**
+1) URL Mapping:
+@Path("users/{username}"): annotation for class
+
+2) HTTP Methods:
+@GET: 
+@POST:
+@PUT:
+@DELETE:
+
+3) Data Formats:
+@Consumes("test/plain")
+@Produces("application/json", "application/xml")
+
+4) Request parameter Values:
+@PathParam
+@QueryParam
+@FormParam
+
+5) Exception Mappers:
+@Provider
+```
 
 
 
