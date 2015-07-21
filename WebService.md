@@ -316,10 +316,22 @@ WS-Security:
          X 508 Certificates
          SAML: SAML (Security Assertion Markup Language)  / secury single sign on protocol
          
- 2)
+ 2) Confidentiality
+     Encryption and Decryption
  
- 
- 3) 
+ 3) Integrity
+     XML Signature
+     
+ MTOM-For exchanging files
+     
+ WS-Address -Asynchronous Callbacks / redirect to another server
+     
+ WS-Policy-Assert and mandate certain rules to consume out web services
+     
+ WS-SecureConversation-Improve Performance while encrypting and decrypting by negotiating a key at the beginning.
+     
+ WS-SecurityPolicy-Assert WS-Security requirements.
+     
 ```
 
 
