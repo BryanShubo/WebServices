@@ -1,0 +1,10 @@
+### Soap Vs Rest
+```
+1) Http Methods and Coaching
+SOAP: HTTP POST OPERATIONS/METHODS
+REST: GET/ POST/PUT/DELETE
+
+2) SOAP CONTRACT
+
+
+```
