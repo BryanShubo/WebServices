@@ -32,7 +32,7 @@ Categories:
 4**: client error
 5**: server error
 
-![alt text](https://github.com/BryanShubo/WebServices/http-method.jpg "Http Methods")
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/http-method.jpg "Http Methods")
 ```
 
 #####3 REST Advantages
