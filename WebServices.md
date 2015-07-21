@@ -51,6 +51,33 @@ Co-exist and Comliment
 
 ###II. Questions:
 ```
+1. Which of these are advantages of Web Services?
+Interoperability
+Loose Coupling
+Extensibility
+
+
+If a XML follows a schema it is called a valid xml
+
+The two types that can be created from inbuilt data types in XML schema are simple and complex
+
+Instead of using the entire namespace url to refer to a xml element prefix can be used
+
+What is the root element of a schema file? xsd:schema
+
+Which of the following ensures the order in which the xml elements should occur? xsd:sequence
+
+Which two schema attributes can be used to control the number of XML element occurrences? minOccurs and maxOccurs
+
+The power of XML comes from its data and meta data
+
+Which two components enable platform in-dependency? HTTp and XML
+
+Web Service Standards address which of the following: Non functional requirements
+
+The current version of SOAP is 1.2
+
+
 
 
 ```
