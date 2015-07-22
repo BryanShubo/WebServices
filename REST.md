@@ -28,7 +28,7 @@ HTTP Status codes: convey the result of the server's attempt to satisfy the requ
 Categories:
 1**: informational
 2**: success
-3**: redirection
+3**: redirection (also meaning success)
 4**: client error
 5**: server error
 ```
@@ -63,7 +63,7 @@ When to use REST:
 6) Existing Logic an be exposed easily
 ```
 
-##### The Richardson Maturity Model
+#####4 The Richardson Maturity Model
 ```
 Is this API fully RESTful?
 
@@ -81,7 +81,7 @@ Level 3: HATEOAS: Resonses have links that the clients can use.
 
 ```
 
-##### Design and Implementation
+#####5 Design and Implementation
 ```
 1) Design
 2) Implementation
@@ -135,7 +135,7 @@ Delete Request: /patients/123
 Delete Response: HTTP/1.1 200 OK 
 ```
 
-##### JAX-RS
+#####6 JAX-RS
 ```
 JAX-RS interfaces and annotations(javax.ws.rs.*)
 
@@ -164,7 +164,55 @@ Apache CXF / Jersey / RESTEasy both contain JAS-RS and implementations
 @Provider
 ```
 
+#####7 Rest Error Handling
+```
+Two types of errors:
 
+Standard Errors:
+
+Application Errors:
+
+javax.ws.rs:
+BadRequestException:  400
+NotAuthorizedException: 401
+ForbiddenException: 403
+InternalServiceException: 500
+Service UnavailableException: 503 
+
+1) Create BusinessExceptionMapper class (need to add @Provider), implements ExceptionMapper<E>, 
+and override toResponse method.
+
+2) Add bean configuration in cxf-servlet.xml file
+```
+
+#####8 Rest Client
+```
+java.net.url
+
+Method 1: Apache HttpClient lib
+
+Method 2: JAX-RS Client API
+
+Async, filters
+
+1. javax.ws.rs.client.*
+ClientBuilder
+Client
+WebTarget
+Entity
+Invoker.Builder
+
+```
+
+#####9 JAX-RS Injection
+```
+@PathParam("id") int id --> /Patient/123
+@QueryParam
+@FormParam
+@HeaderParam
+@CookieParam
+
+```
 
 
 
