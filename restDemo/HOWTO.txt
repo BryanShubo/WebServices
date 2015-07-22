@@ -1,6 +1,3 @@
-# WebServices
-
-
 Building and running the Project using Maven
 ---------------------------------------
 
@@ -74,4 +71,3 @@ returns a Medicine instance 323 if it is present in the order 223. The XML docum
 	<description>Medicine 323</description>
 	<id>323</id>
  </Medicine>
-
