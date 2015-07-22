@@ -62,6 +62,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-service-description:3.0.0-milestone1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.0.4" level="project" />
   </component>
 </module>
 

@@ -1,4 +1,4 @@
-package com.bharaththippireddy.trainings.jaxrs;
+package com.server.jaxrs;
 
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -28,6 +28,11 @@ public interface PatientService {
 	@Path("/patients/{id}/")
 	public abstract Response deletePatients(@PathParam("id") String id);
 
+    /*
+    * This is sub-resource mapping that without method.
+    * The methods are defined in Prescription class.
+    * If you hit "/prescriptions/{id}/", it will return 404 error.
+    * */
 	@Path("/prescriptions/{id}/")
 	public abstract Prescription getPrescription(
 			@PathParam("id") String prescriptionId);

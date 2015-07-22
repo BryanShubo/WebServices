@@ -1,8 +1,12 @@
-package com.bharaththippireddy.trainings.jaxrs;
+package com.server.jaxrs;
+
+import com.server.exception.SomeBusinessException;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.ws.rs.NotFoundException;
+import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 
 public class PatientServiceImpl implements PatientService {
@@ -33,13 +37,17 @@ public class PatientServiceImpl implements PatientService {
 
 		patients.put(patient.getId(), patient);
 
-		return Response.ok(patient).build();
+		return Response.ok(patient).build(); // First way to handle error exception
 	}
 	
 	public Patient getPatient(String id) {
 		System.out.println("----invoking getPatient, Patient id is: " + id);
 		long idNumber = Long.parseLong(id);
 		Patient patient = patients.get(idNumber);
+
+        if (patient == null) {
+            throw new WebApplicationException(Response.Status.NOT_FOUND); // Second way to handle error exception
+        }
 		return patient;
 	}
 
@@ -55,7 +63,9 @@ public class PatientServiceImpl implements PatientService {
 			patients.put(updatedPatient.getId(), updatedPatient);
 			response = Response.ok().build();
 		} else {
-			response = Response.notModified().build();
+			// how it was earlier: response = Response.notModified().build();
+            // Below is the new way using a JAX-RS Exception
+            throw new NotFoundException();
 		}
 
 		return response;
@@ -71,7 +81,8 @@ public class PatientServiceImpl implements PatientService {
 			response = Response.ok().build();
 			patients.remove(idNumber);
 		} else {
-			response = Response.notModified().build();
+			// how it was: response = Response.notModified().build();
+            throw new SomeBusinessException("Business Exception");
 		}
 
 		return response;

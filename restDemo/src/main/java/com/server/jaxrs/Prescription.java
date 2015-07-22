@@ -1,4 +1,4 @@
-package com.bharaththippireddy.trainings.jaxrs;
+package com.server.jaxrs;
 
 import java.util.HashMap;
 import java.util.Map;
