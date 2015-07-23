@@ -21,7 +21,8 @@ HTTP MEthods:
 1) GET/ursers/21     // (idempotent) retrieves a resource from a URL
 2) DELETE/users/21   // (idempotent)  removes the resource
 3) POST/users        // (non-idempotent) creates a new recore; returns a ID
-4) PUT/users/21      // (idempotent) updates a resource; return status code (200 ok)
+4) PUT/users/21      // (idempotent) updates or creates a resource; return status code (200 ok)
+5) PATCH             // (idempotent) updates part of the resource
 * idempotent: the methods can be called many times without differnet outcomes.
 
 HTTP Status codes: convey the result of the server's attempt to satisfy the request
