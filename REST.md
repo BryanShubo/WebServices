@@ -288,6 +288,11 @@ Federated Authentication
 
 Delegated Authorization
 
+3) Why use OAuth
+Trust
+Stealing
+Unlimited Access
+Revocation
 
 ```
 
