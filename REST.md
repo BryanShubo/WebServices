@@ -276,6 +276,18 @@ Steps To Configure and Test Basic Security:
 http://localhost:8080/restws/services/patientservice/patients/123
 
 Enter “tomcat” for user name and “tomcat” for password when prompted on the basic authentication popup.
+```
+
+#####12 OAuth Concepts
+```
+1) Authentication and Authorization
+client <=(username and password)=> provider application
+
+2) Data Access without sharing username and password with every application
+Federated Authentication
+
+Delegated Authorization
+
 
 ```
 
