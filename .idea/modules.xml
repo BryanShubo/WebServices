@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Webservices.iml" filepath="$PROJECT_DIR$/Webservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restAsync/restAsync.iml" filepath="$PROJECT_DIR$/restAsync/restAsync.iml" />
       <module fileurl="file://$PROJECT_DIR$/restDemo/restDemo.iml" filepath="$PROJECT_DIR$/restDemo/restDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restInjection/restInjection.iml" filepath="$PROJECT_DIR$/restInjection/restInjection.iml" />
     </modules>
   </component>
 </project>

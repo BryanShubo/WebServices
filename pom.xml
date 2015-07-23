@@ -8,5 +8,7 @@
   <name>REST</name>
     <modules>
         <module>restDemo</module>
+        <module>restInjection</module>
+        <module>restAsync</module>
     </modules>
 </project>

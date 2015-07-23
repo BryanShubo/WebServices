@@ -4,7 +4,9 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/restAsync" />
     <file type="web" url="file://$PROJECT_DIR$/restDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/restInjection" />
   </component>
   <component name="IdProvider" IDEtalkID="724092158F6BB058E810D2134F45A678" />
   <component name="MavenProjectsManager">

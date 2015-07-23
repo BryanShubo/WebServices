@@ -22,11 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="restAsync" />
         <module name="restDemo" />
+        <module name="restInjection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="restAsync" target="1.7" />
       <module name="restDemo" target="1.7" />
+      <module name="restInjection" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

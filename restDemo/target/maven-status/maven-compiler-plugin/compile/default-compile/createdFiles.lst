@@ -1,8 +1,11 @@
-com\server\jaxrs\Medicine.class
 com\server\jaxrs\Patient.class
+com\server\jaxrs\Medicine.class
 com\server\jaxrs\PatientServiceImpl.class
 com\server\exception\SomeBusinessException.class
 com\server\jaxrs\Prescription.class
 com\server\exceptionmappers\BusinessExceptionMapper.class
+com\injection\dto\PassengerList.class
+com\injection\dto\Passenger.class
 com\client\PatientServiceClient.class
+com\injection\jaxrs\PassengerService.class
 com\server\jaxrs\PatientService.class

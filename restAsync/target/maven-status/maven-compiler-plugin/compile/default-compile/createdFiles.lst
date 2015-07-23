@@ -1,0 +1,3 @@
+com\client\CheckProcessorClientCallback.class
+com\client\ChecksResponseCallbackHandle.class
+com\client\CheckProcessorClientFuture.class
