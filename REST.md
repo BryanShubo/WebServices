@@ -32,7 +32,7 @@ Categories:
 4**: client error
 5**: server error
 ```
-![alt text](https://github.com/BryanShubo/WebServices/blob/master/http-method.jpg "Http Methods")
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/http-method.jpg "Http Methods")
 
 
 #####3 REST Advantages
@@ -214,6 +214,15 @@ Invoker.Builder
 ```
 
 #####10 Synchronous and Asynchronous
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/syn.bmp "Synchronous")
+
+```
+
+```
+
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/Async.bmp "Asynchronous")
+
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/3.bmp "JAX-RS Asynchronous")
 ```
 
 
