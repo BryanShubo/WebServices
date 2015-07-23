@@ -211,6 +211,21 @@ Invoker.Builder
 @FormParam
 @HeaderParam
 @CookieParam
+```
+
+#####10 Synchronous and Asynchronous
+```
+
+
+Provider:
+@javax.ws.rs.container.Suspended
+javax.ws.rs.container.AsyncResponse
+
+
+Client:
+javax.ws.rs.client.Asyncinvoker
+java.util.concurrent.Future
+javax.ws.rs.client.InvocationCallback
 
 ```
 
