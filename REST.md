@@ -32,7 +32,7 @@ Categories:
 4**: client error
 5**: server error
 ```
-![alt text](https://github.com/BryanShubo/WebServices/blob/master/http-method.jpg "Http Methods")
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/http-method.jpg "Http Methods")
 
 
 #####3 REST Advantages
@@ -214,9 +214,12 @@ Invoker.Builder
 ```
 
 #####10 Synchronous and Asynchronous
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/syn.bmp "Synchronous")
+
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/Async.bmp "Asynchronous")
+
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/3.bmp "JAX-RS Asynchronous")
 ```
-
-
 Provider:
 @javax.ws.rs.container.Suspended
 javax.ws.rs.container.AsyncResponse
@@ -226,6 +229,65 @@ Client:
 javax.ws.rs.client.Asyncinvoker
 java.util.concurrent.Future
 javax.ws.rs.client.InvocationCallback
+
+```
+
+#####11 Security
+```
+Steps To Configure and Test Basic Security:
+
+1)Open the web.xml under WEB-INF directory of your restws eclipse project.
+
+2)Go to the end of web.xml. Copy the below xml. Paste before the </web-app> in the web.xml.
+
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Wildcard * means all the resources in the application require authentication</web-resource-name>
+			<url-pattern>/*</url-pattern>
+			<http-method>GET</http-method>
+			<http-method>POST</http-method>
+			<http-method>PUT</http-method>
+			<http-method>DELETE</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>tomcat</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+	
+3) Open the tomcat-users.xml in eclipse (short cut to search in eclipse ctlr->shift->r)
+
+4) Remove the xml comments around the following section.
+
+  <role rolename="tomcat"/>
+  <role rolename="role1"/>
+  <user username="tomcat" password="tomcat" roles="tomcat"/>
+  <user username="both" password="tomcat" roles="tomcat,role1"/>
+  <user username="role1" password="tomcat" roles="role1"/>
+  
+5) Restart the tomcat server in eclipse
+
+6) Access the patient information using the following URL (BROWSER USES HTTP GET METHOD BY DEFAULT FOR URLS)
+
+http://localhost:8080/restws/services/patientservice/patients/123
+
+Enter “tomcat” for user name and “tomcat” for password when prompted on the basic authentication popup.
+```
+
+#####12 OAuth Concepts
+```
+1) Authentication and Authorization
+client <=(username and password)=> provider application
+
+2) Data Access without sharing username and password with every application
+Federated Authentication
+
+Delegated Authorization
+
 
 ```
 
