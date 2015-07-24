@@ -1,4 +1,4 @@
-##Restful: REpresentational State Transfer
+##REST: REpresentational State Transfer
 
 #####1 Web Services features
 ```
