@@ -286,9 +286,10 @@ client <=(username and password)=> provider application
 
 2) Data Access without sharing username and password with every application
 Federated Authentication
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/Federate Authentication.bmp "JAX-RS Asynchronous")
 
 Delegated Authorization
-
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/Delegated Authorization.bmp "JAX-RS Asynchronous")
 3) Why use OAuth
 Trust
 Stealing
