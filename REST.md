@@ -297,8 +297,12 @@ Trust
 Stealing
 Unlimited Access
 Revocation
-
 ```
+4) OAuth Workflow
+
+
+Variation in implementation:
+OAuth Support
 
 
 
