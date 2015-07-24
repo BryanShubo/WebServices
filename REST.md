@@ -299,11 +299,16 @@ Unlimited Access
 Revocation
 ```
 4) OAuth Workflow
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/flow1.bmp "flow1")
 
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/flow2.bmp "flow3")
+
+![alt text](https://github.com/BryanShubo/WebServices/blob/master/images/flow3.bmp "flow3")
 
 Variation in implementation:
 OAuth Support
 
+google oauth play ground
 
 
 ### POST VS PUT
