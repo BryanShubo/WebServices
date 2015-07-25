@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jersey/Jersey.iml" filepath="$PROJECT_DIR$/Jersey/Jersey.iml" />
       <module fileurl="file://$PROJECT_DIR$/Webservices.iml" filepath="$PROJECT_DIR$/Webservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/restAsync/restAsync.iml" filepath="$PROJECT_DIR$/restAsync/restAsync.iml" />
       <module fileurl="file://$PROJECT_DIR$/restDemo/restDemo.iml" filepath="$PROJECT_DIR$/restDemo/restDemo.iml" />

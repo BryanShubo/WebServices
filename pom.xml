@@ -10,5 +10,6 @@
         <module>restDemo</module>
         <module>restInjection</module>
         <module>restAsync</module>
+        <module>Jersey</module>
     </modules>
 </project>
