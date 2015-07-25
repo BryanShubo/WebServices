@@ -3,8 +3,11 @@ package restful.jersey.server.messenger.service;
 
 import restful.jersey.server.messenger.database.DatabaseClass;
 import restful.jersey.server.messenger.model.Comment;
+import restful.jersey.server.messenger.model.ErrorMessage;
 import restful.jersey.server.messenger.model.Message;
 
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -19,8 +22,18 @@ public class CommentService {
     }
 
     public Comment getComment(long messageId, long commentId) {
+        ErrorMessage errorMessage = new ErrorMessage("Not Found", 404, "http://testing.com");
+        Response response = Response.status(Response.Status.NOT_FOUND).entity(errorMessage).build();
+        Message message = messages.get(messageId);
+        if (message == null) {
+            throw new WebApplicationException(response);
+        }
         Map<Long, Comment> comments = messages.get(messageId).getComments();
-        return comments.get(commentId);
+        Comment comment = comments.get(commentId);
+        if (comment == null) {
+            throw new WebApplicationException(response);
+        }
+        return comment;
     }
 
     public Comment addComment(long messageId, Comment comment) {

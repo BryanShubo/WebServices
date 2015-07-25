@@ -1,6 +1,7 @@
 package restful.jersey.server.messenger.service;
 
 import restful.jersey.server.messenger.database.DatabaseClass;
+import restful.jersey.server.messenger.exception.DataNotFoundException;
 import restful.jersey.server.messenger.model.Message;
 
 import java.util.ArrayList;
@@ -52,7 +53,11 @@ public class MessageService {
     }
 
     public Message getMessage(long id) {
-        return messages.get(id);
+        Message message = messages.get(id);
+        if(message == null) {
+            throw new DataNotFoundException("Message with id " + id + " not found");
+        }
+        return message;
     }
 
     public Message addMessage(Message message) {
