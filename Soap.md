@@ -1,5 +1,7 @@
 1 Web Service
 ```
+1) Website is for personal consumption.
+2) Web service is for app (code) consumption.
 Consumer application ==>provider application via SOAP, XML, JSON
 Consumer application <==>provider application via http
 
