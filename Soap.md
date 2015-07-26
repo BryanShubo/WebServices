@@ -142,12 +142,14 @@ Example 3:
 
 9 WSDL: web service description  language
 ```
-ABSTRACT
-* definitions 
-** types:
-** messages: is equivalent to method parameters in programming
-** operation: 
-** porttype: contains all operations
+Elements:
+* definitions: is a container for all other elements 
+*** types: defining the data types that are used by the web service
+*** messages: is equivalent to method parameters in programming. Data exchange between web service and client
+*** porttype: 
+*** binding: 
+*** service:
+
 
 Physical
 binding/ service
