@@ -151,10 +151,11 @@ Example 3:
 Elements:
 * definitions: is a container for all other elements 
 *** types: defining the data types that are used by the web service
-*** messages: is equivalent to method parameters in programming. Data exchange between web service and client
-*** porttype: 
-*** binding: 
-*** service:
+*** messages: is equivalent to method parameters in programming and pointing to types. Data exchange between 
+              web service and client
+*** porttype: WebMethod (one input message and one output message for each operation)
+*** binding: how web service accepts request
+*** service: WebService class.
 
 
 Physical
