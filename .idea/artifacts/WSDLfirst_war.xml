@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WSDLfirst:war">
+    <output-path>$PROJECT_DIR$/WSDLfirst/target</output-path>
+    <root id="archive" name="wsdlfirstws.war">
+      <element id="artifact" artifact-name="WSDLfirst:war exploded" />
+    </root>
+  </artifact>
+</component>

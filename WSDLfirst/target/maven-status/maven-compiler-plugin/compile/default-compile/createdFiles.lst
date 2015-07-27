@@ -1,0 +1,10 @@
+server\soap\CustomerOrdersPortType.class
+server\soap\CreateOrdersResponse.class
+server\soap\ObjectFactory.class
+server\soap\Order.class
+server\soap\GetOrdersRequest.class
+server\soap\package-info.class
+server\soap\CustomerOrdersService.class
+server\soap\Product.class
+server\soap\CreateOrdersRequest.class
+server\soap\GetOrdersResponse.class

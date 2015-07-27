@@ -1,6 +1,7 @@
-com\trainings\ws\soap\PaymentProcessor.class
-com\trainings\ws\soap\dto\CreditCardInfo.class
-com\trainings\ws\soap\UTPasswordCallback.class
-com\trainings\ws\soap\dto\PaymentProcessorResponse.class
-com\trainings\ws\soap\dto\PaymentProcessorRequest.class
-com\trainings\ws\soap\PaymentProcessorImpl.class
+ws\soap\server\beans\PaymentProcessorResponse.class
+ws\soap\server\UTPasswordCallback.class
+ws\soap\server\PaymentProcessorImpl.class
+ws\soap\server\beans\PaymentProcessorRequest.class
+ws\soap\server\beans\CreditCardInfo.class
+ws\soap\server\PaymentProcessor.class
+client\ClientTest.class

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CXF/CXF.iml" filepath="$PROJECT_DIR$/CXF/CXF.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeFirst/CodeFirst.iml" filepath="$PROJECT_DIR$/CodeFirst/CodeFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAXB/JAXB.iml" filepath="$PROJECT_DIR$/JAXB/JAXB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBrains/JavaBrains.iml" filepath="$PROJECT_DIR$/JavaBrains/JavaBrains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBrainsDemo/JavaBrainsDemo.iml" filepath="$PROJECT_DIR$/JavaBrainsDemo/JavaBrainsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MTOM/MTOM.iml" filepath="$PROJECT_DIR$/MTOM/MTOM.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOAP.iml" filepath="$PROJECT_DIR$/SOAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WSDLfirst/WSDLfirst.iml" filepath="$PROJECT_DIR$/WSDLfirst/WSDLfirst.iml" />
     </modules>
   </component>
 </project>

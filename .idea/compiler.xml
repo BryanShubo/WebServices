@@ -23,16 +23,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="CodeFirst" />
-        <module name="CXF" />
+        <module name="JavaBrains" />
+        <module name="JavaBrainsDemo" />
         <module name="JAXB" />
         <module name="MTOM" />
+        <module name="WSDLfirst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CodeFirst" target="1.7" />
-      <module name="CXF" target="1.7" />
+      <module name="JavaBrains" target="1.7" />
+      <module name="JavaBrainsDemo" target="1.7" />
       <module name="JAXB" target="1.7" />
       <module name="MTOM" target="1.7" />
+      <module name="WSDLfirst" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

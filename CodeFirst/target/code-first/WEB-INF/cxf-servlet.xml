@@ -13,11 +13,12 @@
        http://cxf.apache.org/jaxws
        http://cxf.apache.org/schemas/jaxws.xsd">
 
-    <jaxws:server id="paymentService" serviceClass="com.trainings.ws.soap.PaymentProcessor"
+    <jaxws:server id="paymentService" serviceClass="ws.soap.server.PaymentProcessor"
                   address="/paymentProcessor">
         <jaxws:serviceBean>
-            <bean class="com.trainings.ws.soap.PaymentProcessorImpl"/>
+            <bean class="ws.soap.server.PaymentProcessorImpl"/>
         </jaxws:serviceBean>
+
         <jaxws:inInterceptors>
             <bean class="org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor">
                 <constructor-arg>
@@ -29,9 +30,12 @@
                 </constructor-arg>
             </bean>
         </jaxws:inInterceptors>
+
     </jaxws:server>
 
-    <bean id="myPasswordCallback" class="com.trainings.ws.soap.UTPasswordCallback" />
+
+    <bean id="myPasswordCallback" class="ws.soap.server.UTPasswordCallback" />
+
     <cxf:bus>
         <cxf:features>
             <cxf:logging/>
