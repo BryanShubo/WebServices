@@ -2,75 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e348e04-afc1-470c-9d71-5860402d57a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/client/ClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSDLfirst/src/main/java/server/soap/impl/CustomersOrdersWSImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/JavaBrainsDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSDLfirst/WSDLfirst.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/WSDLfirst_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/WSDLfirst_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrains/src/main/webapp/WEB-INF/wsdl/Weather.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrains/src/main/java/client/WeatherClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/cxf-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrains/src/main/webapp/WEB-INF/cxf-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrains/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSDLfirst/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodeFirst/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrains/readme.txt" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\HOWTO.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\impl\CustomersOrdersWSImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\CreateOrdersRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\CreateOrdersResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\CustomerOrdersPortType.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\CustomerOrdersService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\GetOrdersRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\GetOrdersResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\Order.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\Product.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\server\package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\webapp\WEB-INF\cxf-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\webapp\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\webapp\WEB-INF\wsdl\CustomerOrders.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\webapp\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\cxf-codegen-plugin-markers\.3AA359F15293ABB7D5B846FE3ACFC7376DD02951" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\wsdlfirstws\WEB-INF\cxf-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\wsdlfirstws\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\wsdlfirstws\WEB-INF\wsdl\CustomerOrders.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\target\wsdlfirstws\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\JAXB\src\main\java\readme.md" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\CXF.iml" afterPath="$PROJECT_DIR$/JavaBrains/JavaBrains.iml" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CXF\src\main\java\com\bharath\ws\trainings\impl\client\CustomerOrdersWSClient.java" afterPath="$PROJECT_DIR$/WSDLfirst/src/main/java/client/CustomerOrdersWSClient.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\PaymentProcessor.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/PaymentProcessor.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\PaymentProcessorImpl.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/PaymentProcessorImpl.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\UTPasswordCallback.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/UTPasswordCallback.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\dto\CreditCardInfo.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/beans/CreditCardInfo.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\dto\PaymentProcessorRequest.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/beans/PaymentProcessorRequest.java" />
-      <change type="MOVED" beforePath="C:\Users\Shubo\Desktop\GitHub\WebServices\WebServices\CodeFirst\src\main\java\com\trainings\ws\soap\dto\PaymentProcessorResponse.java" afterPath="$PROJECT_DIR$/CodeFirst/src/main/java/ws/soap/server/beans/PaymentProcessorResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/org/w3/_2001/xmlschema/Adapter1.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/org/w3/_2001/xmlschema/Adapter1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CXF_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CXF_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeFirst/CodeFirst.iml" afterPath="$PROJECT_DIR$/CodeFirst/CodeFirst.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Gender.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Gender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Insurance.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Insurance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/JAXB.iml" afterPath="$PROJECT_DIR$/JAXB/JAXB.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTOM/MTOM.iml" afterPath="$PROJECT_DIR$/MTOM/MTOM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/ObjectFactory.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/ObjectFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Patient.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/Patient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/PaymentType.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/PaymentType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeFirst/src/main/webapp/WEB-INF/cxf-servlet.xml" afterPath="$PROJECT_DIR$/CodeFirst/src/main/webapp/WEB-INF/cxf-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/package-info.java" afterPath="$PROJECT_DIR$/JAXB/src/main/java/com/bharatthippireddy/patient/package-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JAXB/src/main/java/META-INF/sun-jaxb.episode" afterPath="$PROJECT_DIR$/JAXB/src/main/java/META-INF/sun-jaxb.episode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ShopInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java" afterPath="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SOAP.iws" />
@@ -97,24 +30,8 @@
       <file leaf-file-name="ProductCatalog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1207">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cxf-servlet.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/cxf-servlet.xml">
+      <file leaf-file-name="ShopInfo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ShopInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4345048" vertical-offset="0" max-vertical-offset="646">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.23502304" vertical-offset="0" max-vertical-offset="651">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,8 +95,9 @@
         <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/cxf-servlet.xml" />
-        <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java" />
         <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductService.java" />
+        <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java" />
+        <option value="$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ShopInfo.java" />
       </list>
     </option>
   </component>
@@ -294,62 +212,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaBrainsDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SOAP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaBrainsDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SOAP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaBrainsDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -953,12 +815,12 @@
       <workItem from="1437963418568" duration="990000" />
       <workItem from="1437964442774" duration="266000" />
       <workItem from="1437964732054" duration="122000" />
-      <workItem from="1437964855077" duration="3803000" />
+      <workItem from="1437964855077" duration="5778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26150000" />
+    <option name="totallyTimeSpent" value="28125000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1038,13 +900,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WSDLfirst/src/main/java/server/soap/CustomerOrdersPortType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27083334" vertical-offset="0" max-vertical-offset="816">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WSDLfirst/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044155844" vertical-offset="0" max-vertical-offset="770">
@@ -1269,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WSDLfirst/src/main/webapp/WEB-INF/wsdl/CustomerOrders.wsdl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4" vertical-offset="1645" max-vertical-offset="2295">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WSDLfirst/src/main/java/server/soap/CustomerOrdersService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="1445">
@@ -1388,23 +1236,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java">
+    <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/cxf-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2812823" vertical-offset="0" max-vertical-offset="967">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.7247984" vertical-offset="148" max-vertical-offset="1207">
           <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1412,10 +1254,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/webapp/WEB-INF/cxf-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/WSDLfirst/src/main/webapp/WEB-INF/wsdl/CustomerOrders.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4345048" vertical-offset="0" max-vertical-offset="646">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state vertical-scroll-proportion="-1.2278225" vertical-offset="1303" max-vertical-offset="2295">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ProductCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBrainsDemo/src/main/java/server/ShopInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23502304" vertical-offset="0" max-vertical-offset="651">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

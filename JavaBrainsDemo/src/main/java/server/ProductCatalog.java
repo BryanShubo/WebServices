@@ -5,12 +5,13 @@ import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebService
+@WebService(name="TestMartCatalog", portName = "TestMartCatalogPort", serviceName = "TestMartCatalogService",
+            targetNamespace = "http://www.testmart.com")
 public class ProductCatalog {
 
     ProductService productService = new ProductService();
 
-    @WebMethod
+    @WebMethod(action = "fetch_categories", operationName = "fetchCategories")
     public List<String> getProductCategories() {
         return productService.getProductCategories();
     }
