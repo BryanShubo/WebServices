@@ -157,9 +157,10 @@ Apache CXF / Jersey / RESTEasy both contain JAS-RS and implementations
 @Produces("application/json", "application/xml")
 
 4) Request parameter Values:
-@PathParam
-@QueryParam
-@FormParam
+@PathParam : .../.../{messageID}
+@QueryParam: .../.../year=2010&limit=10
+@FormParam: get form elements by names
+@Context: UriInfo
 
 5) Exception Mappers:
 @Provider
